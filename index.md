@@ -1,6 +1,7 @@
+<link href="/path/to/style.css" rel="stylesheet"></link>
 This is a regular paragraph.
 
-<div style="color:#ff0000; font-size:50px;">
+<div class="class1">
     <p> sbdjklnfcuedc </p>
  </div> 
 
