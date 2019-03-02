@@ -1,4 +1,4 @@
-(setq markdown-css-paths '("http://mydomain.com/style.css"))
+(setq markdown-css-paths '("https://github.com/extreme-pals/extreme-pals.github.io/blob/master/style.css))
 This is a regular paragraph.
 
 <div class="class1">
