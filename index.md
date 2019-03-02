@@ -1,4 +1,9 @@
-(setq markdown-css-paths '("https://github.com/extreme-pals/extreme-pals.github.io/blob/master/style.css))
+(setq markdown-xhtml-header-content
+      "<style type='text/css'>
+.class1 { text-decoration: none; }
+.class1 :hover { text-decoration: underline; }
+</style>")
+
 This is a regular paragraph.
 
 <div class="class1">
