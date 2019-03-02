@@ -1,3 +1,5 @@
+/* CSS files add styling rules to your content */
+
 .logo {
   position: absolute;
   top: 10%;
@@ -5,15 +7,19 @@
   z-index:0;
 }
 
+
 body {
   font-family: "Lato", sans-serif;
   transition: background-color .5s;
+  margin: 0;
+  height: 100%;
+  width: 100%;
 }
 
-.logobutton {
-   position: absolute;
-   left:0%;
-   top:0%;  
+.logobutton{
+  position: absolute;
+  left:0%;
+  top:0%;  
 }
 
 .sidenav {
@@ -50,20 +56,18 @@ body {
   margin-left: 50px;
 }
 
-#main {
-  transition: margin-left .5s;
-  padding: 16px;
-}
+
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
 
+
 #subheader {
   position:absolute;
   top:42%;
-  left:36%;
+  left:35%;
   font-size: 25px;
 }
 
@@ -73,7 +77,7 @@ body {
   right: 0%;
 }
 
-.date{
+.date {
   color: #ffffff;
   position: absolute;
   text-align:center;
@@ -93,14 +97,13 @@ body {
   font-family: 'Ubuntu', sans-serif;
 }
 
-
 .register{
   color: #ffffff;
   position:absolute;
   font-size:20px;
-  top:80%;
-  left:34%;
-  font-family: 'Ubuntu', sans-serif;  
+  top:90%;
+  left:32%;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 #demo {
@@ -112,20 +115,14 @@ body {
   background-color: #f9b311;
   position: absolute;
   font-size : 25px;
-  top: 65%;
+  top: 67%;
   left: 30%;
   border-radius:20px;
 }
   
-body {
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-}
 
 #background-wrap {
-   bottom: 0;
+  bottom: 0;
 	left: 0;
 	padding-top: 50px;
 	position: fixed;
