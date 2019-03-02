@@ -1,5 +1,5 @@
 <link href="/path/to/style.css" rel="stylesheet"></link>
- <script src="/path/to/javascript.js"></script>
+<script src="/path/to/javascript.js"></script>
 
 This is a regular paragraph.
 
