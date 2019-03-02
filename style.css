@@ -2,3 +2,7 @@
    font-size: 100px;
    color:#FF0000;
 }
+
+.class:hover {
+   text-decoration: underline;
+}
