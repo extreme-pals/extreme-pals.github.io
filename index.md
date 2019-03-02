@@ -6,7 +6,7 @@
 
 This is a regular paragraph.
 
-<div class="class1">
+<div style="color: #ffffff; font-size:120px;">
     <p> sbdjklnfcuedc </p>
  </div> 
 
