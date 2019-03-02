@@ -77,6 +77,12 @@ body {
   font-size: 180%;
 }
 
+#pikachu {
+  position:absolute;
+  bottom: -10%;
+  right: 0%;
+}
+
 .date{
   color: #ffffff;
   position: absolute;
