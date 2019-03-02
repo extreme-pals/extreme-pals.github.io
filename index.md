@@ -1,6 +1,7 @@
 <html>
 <link href="/path/to/style.css" rel="stylesheet"></link>
-<script src="/path/to/javascript.js"></script>
+what?
+<link href="/path/to/javascript.js"></script>
 </html>
 
 This is a regular paragraph.
