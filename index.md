@@ -1,6 +1,6 @@
 This is a regular paragraph.
 
-<div style="color: #ffffff; font-size:120px;">
+<div style="color: FFA500; font-size:50px;">
     <p> sbdjklnfcuedc </p>
  </div> 
 
