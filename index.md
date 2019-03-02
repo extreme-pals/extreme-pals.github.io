@@ -2,7 +2,7 @@
 This is a regular paragraph.
 
 <span class="class1">
-    <p> sbdjklnfcuedc </p>
+    <p onclick="heartSuprise()"> sbdjklnfcuedc </p>
  </span> 
 
 This is another regular paragraph.
