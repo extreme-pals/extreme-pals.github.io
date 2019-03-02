@@ -10,7 +10,7 @@ body {
   transition: background-color .5s;
 }
 
-.logobutton{
+.logobutton {
    position: absolute;
    left:0%;
    top:0%;  
@@ -113,7 +113,7 @@ body {
   position: absolute;
   font-size : 25px;
   top: 65%;
-  left: 35%;
+  left: 30%;
   border-radius:20px;
 }
   
