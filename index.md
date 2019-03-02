@@ -1,8 +1,8 @@
 <link href="/path/to/style.css" rel="stylesheet"></link>
 This is a regular paragraph.
 
-<div class="class1">
+<span class="class1">
     <p> sbdjklnfcuedc </p>
- </div> 
+ </span> 
 
 This is another regular paragraph.
