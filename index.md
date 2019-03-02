@@ -1,5 +1,4 @@
-<link rel="stylesheet" href="/style.css">
-
+(setq markdown-css-paths '("http://mydomain.com/style.css"))
 This is a regular paragraph.
 
 <div class="class1">
