@@ -3,8 +3,8 @@
 
 This is a regular paragraph.
 
-<span class="class1">
-    <p onclick="heartSuprise()"> sbdjklnfcuedc </p>
+<span class="class1" onclick="heartSuprise()">
+    <p > sbdjklnfcuedc </p>
  </span> 
 
 This is another regular paragraph.
