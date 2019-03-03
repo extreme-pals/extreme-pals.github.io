@@ -17,9 +17,6 @@ body {
   margin: 0;
 }
 
-.icon {
-  width: 10%;
-}
 
 .logobutton{
   position: absolute;
@@ -71,16 +68,15 @@ body {
 .subheader {
   position:absolute;
   top:45%;
+  left:35%;
   text-align: center;
   font-size: 150%;
-  width: 80%;
 }
 
 .pikachu {
   position: absolute;
   right: 0%;
   bottom: -11%;
-  width: 30%;
 }
 
 .date {
@@ -89,8 +85,8 @@ body {
   text-align:center;
   font-size : 180%;
   top: 55%;
+  left:42%;
   font-family: 'Ubuntu', sans-serif;
-  width: 80%;
 }
 
 .timeAndLocation{
@@ -98,9 +94,9 @@ body {
   position: absolute;
   text-align:center;
   top: 60%;
+  left: 42%;
   font-family: 'Ubuntu', sans-serif;
   font-size: 150%;
-  width: 80%;
 }
 
 .register{
@@ -109,8 +105,8 @@ body {
   font-size:100%;
   text-align: center;
   top:90%;
+  left:35%;
   font-family: 'Ubuntu', sans-serif;
-  width: 80%;
 }
 
 #demo {
@@ -121,7 +117,7 @@ body {
 .timerBtn {
   background-color: #f9b311;
   position: absolute;
-  font-size: 125%;
+  font-size: 130%;
   text-align: center;
   top: 73%;
   left: 31%;
@@ -279,30 +275,29 @@ body {
 
 
 @media only screen and (max-width: 900px) {
-  .subheader{top:40%; left:10%; font-size:135%;}
-  .date {top: 47%; left: 10%; font-size: 150%;}
-  .timeAndLocation {top: 52%; left: 10%; font-size: 135%;}
+  .subheader{top:40%; left:30%; font-size:135%;}
+  .date {top: 47%; left: 38%; font-size: 150%;}
+  .timeAndLocation {top: 52%; left: 38%; font-size: 135%;}
   .timerBtn {top: 63%}
-  .register{top: 85%; left: 10%; font-size: 100%;}
+  .register{top: 85%; left: 27%; font-size: 100%;}
   .pikachu {bottom: -8%;}
   
 }
-
 @media only screen and (max-width: 800px) {
-  .subheader{top:43%; left:10%; font-size:80%;}
-  .date {top: 53%; left: 10%; font-size: 150%;}
-  .timeAndLocation {top: 60%; left: 10%; font-size: 80%;}
-  .timerBtn {top: 75%; font-size:80%;}
-  .register{top: 95%; font-size: 50%;}
-  .pikachu {bottom: -10%;}
+  .subheader{top:42%; left:30%; font-size:125%;}
+  .date {top:52%; left: 39%; font-size: 150%;}
+  .timeAndLocation {top: 59%; left: 39%; font-size: 125%;}
+  .timerBtn {top: 75%; left: 24%; width: 55%; font-size:100%;}
+  .register{top: 93%; left: 20%; font-size: 100%;}
+  .pikachu {bottom: -10%; right: -5%; width: 25%;}
   
 }
-
 @media only screen and (max-width: 700px) {
-  .subheader{top:25%; left:10%; font-size:80%;}
-  .date {top: 35%; left: 10%; font-size: 100%;}
-  .timeAndLocation {top: 40%; left: 10%; font-size: 80%;}
-  .timerBtn {top: 58%; font-size:80%;}
-  .register{top: 75%; font-size: 50%;}
+  .subheader{top:25%; left:15%; font-size:100%;}
+  .date {top: 35%; left: 30%; font-size: 125%;}
+  .timeAndLocation {top: 40%; left: 30%; font-size: 100%;}
+  .timerBtn {top: 55%; left: 25%; width: 50%; font-size:100%;}
+  .register{top: 75%; left: 10%; font-size: 80%;}
   .pikachu {bottom: 0%;}
+  
 }
