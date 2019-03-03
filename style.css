@@ -5,21 +5,26 @@
   top: 10%;
   left: 35%;
   z-index:0;
+  width: 30%;
 }
 
 
 body {
   font-family: "Lato", sans-serif;
   transition: background-color .5s;
-  margin: 0;
   height: 100%;
   width: 100%;
+  margin: 0;
+}
+
+.icon {
+  width: 10%;
 }
 
 .logobutton{
   position: absolute;
   left:0%;
-  top:0%;  
+  top:0%; 
 }
 
 .sidenav {
@@ -57,53 +62,55 @@ body {
 }
 
 
-
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
 
 
-#subheader {
+.subheader {
   position:absolute;
-  top:42%;
-  left:35%;
-  font-size: 25px;
+  top:45%;
+  text-align: center;
+  font-size: 150%;
+  width: 80%;
 }
 
-#pikachu {
-  position:absolute;
-  bottom: -10%;
+.pikachu {
+  position: absolute;
   right: 0%;
+  bottom: -11%;
+  width: 30%;
 }
 
 .date {
   color: #ffffff;
   position: absolute;
   text-align:center;
-  font-size : 27px;
-  top: 50%;
-  left: 42%;
+  font-size : 180%;
+  top: 55%;
   font-family: 'Ubuntu', sans-serif;
+  width: 80%;
 }
 
 .timeAndLocation{
   color: #ffffff;
   position: absolute;
   text-align:center;
-  font-size : 25px;
-  top: 55%;
-  left: 42%;
+  top: 60%;
   font-family: 'Ubuntu', sans-serif;
+  font-size: 150%;
+  width: 80%;
 }
 
 .register{
   color: #ffffff;
   position:absolute;
-  font-size:20px;
+  font-size:100%;
+  text-align: center;
   top:90%;
-  left:32%;
   font-family: 'Ubuntu', sans-serif;
+  width: 80%;
 }
 
 #demo {
@@ -114,10 +121,12 @@ body {
 .timerBtn {
   background-color: #f9b311;
   position: absolute;
-  font-size : 25px;
-  top: 67%;
-  left: 30%;
+  font-size: 125%;
+  text-align: center;
+  top: 73%;
+  left: 31%;
   border-radius:20px;
+  width: 40%;
 }
   
 
@@ -266,4 +275,34 @@ body {
 	height: 180px;
 	right: 50px;
 	top: -90px;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .subheader{top:40%; left:10%; font-size:135%;}
+  .date {top: 47%; left: 10%; font-size: 150%;}
+  .timeAndLocation {top: 52%; left: 10%; font-size: 135%;}
+  .timerBtn {top: 63%}
+  .register{top: 85%; left: 10%; font-size: 100%;}
+  .pikachu {bottom: -8%;}
+  
+}
+
+@media only screen and (max-width: 800px) {
+  .subheader{top:43%; left:10%; font-size:80%;}
+  .date {top: 53%; left: 10%; font-size: 150%;}
+  .timeAndLocation {top: 60%; left: 10%; font-size: 80%;}
+  .timerBtn {top: 75%; font-size:80%;}
+  .register{top: 95%; font-size: 50%;}
+  .pikachu {bottom: -10%;}
+  
+}
+
+@media only screen and (max-width: 700px) {
+  .subheader{top:25%; left:10%; font-size:80%;}
+  .date {top: 35%; left: 10%; font-size: 100%;}
+  .timeAndLocation {top: 40%; left: 10%; font-size: 80%;}
+  .timerBtn {top: 58%; font-size:80%;}
+  .register{top: 75%; font-size: 50%;}
+  .pikachu {bottom: 0%;}
 }
