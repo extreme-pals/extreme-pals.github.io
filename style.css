@@ -16,23 +16,6 @@ body {
   margin: 0;
 }
 
-/*whats this class??*/
-.hamburger{
-   background:none;
-  position:absolute;
-  top:0;
-  left:0;
-/*   line-height:45px; */
-/*   padding:5px 0px 0px 15px; */
-  color:#999;
-  border:0;
-  font-size:350%;
-  font-weight:bold;
-  cursor:pointer;
-  outline:none;
-  z-index:0;
-}
-
 .logobutton{
   position: absolute;
   left:0%;
@@ -40,22 +23,27 @@ body {
   width:5%;
 }
 
+#aboutHeader {
+  font-family: Permanent Marker, cursive; 
+  font-size: 200%;
+}
+
+#aboutHeader:hover {
+  text-decoration: underline;
+}
+  
 .topnav {
   display:inline-block;
   overflow: hidden;
   background-color: #00368D;
-/*   border: 2px solid white; */
-/*   position:absolute; no static*/
   position:fixed;
   top:0%;
-  left:0%;
-/*    width:25.5%;  */
-  width:98%;
-  height:5%;
-  
+  left:34%;
+  width:32%;
+  height:6%;
   z-index:10;
+  text-align:center;
   border-radius: 20px;
-  text-align:center
 }
 
 .topnav a {
@@ -76,46 +64,6 @@ body {
   background-color: #f0815c;
   color: white;
 }
-
-/*.topbar {
-  font-family:Ubuntu, sans-serif;
-  width: 10%;
-}*/
-
-/* .sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #ffd24d;;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-} */
-
 
 .subheader {
   position:absolute;
@@ -389,7 +337,38 @@ body {
   .timerBtn {top: 70%}
   .register{top: 90%; left: 33%; font-size: 100%;}
   .pikachu {bottom: -11%;}
-  .topnav {left: 35%; border-radius: 20px; width: 37%;}
+  .topnav {left: 32%; border-radius: 20px; width: 37%;}
+}
+
+@media only screen and (max-width: 1150px) {
+  .subheader{top:48%; left:35%; font-size:135%;}
+  .date {top: 55%; left: 43%; font-size: 150%;}
+  .timeAndLocation {top: 60%; left: 43%; font-size: 135%;}
+  .timerBtn {top: 70%}
+  .register{top: 90%; left: 33%; font-size: 100%;}
+  .pikachu {bottom: -11%;}
+  .topnav {left: 31%; border-radius: 20px; width: 40%;}
+}
+
+@media only screen and (max-width: 1000px) {
+  .subheader{top:48%; left:35%; font-size:135%;}
+  .date {top: 55%; left: 43%; font-size: 150%;}
+  .timeAndLocation {top: 60%; left: 43%; font-size: 135%;}
+  .timerBtn {top: 70%}
+  .register{top: 90%; left: 29%; font-size: 100%;}
+  .pikachu {bottom: -11%;}
+  .topnav {left: 29%; border-radius: 20px; width: 44%;}
+}
+
+
+@media only screen and (max-width: 900px) {
+  .subheader{top:40%; left:30%; font-size:135%;}
+  .date {top: 47%; left: 38%; font-size: 150%;}
+  .timeAndLocation {top: 52%; left: 38%; font-size: 135%;}
+  .timerBtn {top: 63%}
+  .register{top: 85%; left: 27%; font-size: 100%;}
+  .pikachu {bottom: -8%;}
+  .topnav {left: 30%; border-radius: 20px; width: 37%;}
 }
 
 @media only screen and (max-width: 900px) {
@@ -399,7 +378,7 @@ body {
   .timerBtn {top: 63%}
   .register{top: 85%; left: 27%; font-size: 100%;}
   .pikachu {bottom: -8%;}
-  .topnav {left: 32%; border-radius: 20px; width: 37%;}
+  .topnav {left: 27%; border-radius: 20px; width: 49%;}
 }
 
 @media only screen and (max-width: 800px) {
@@ -411,7 +390,7 @@ body {
   .pikachu {bottom: -10%; right: -5%; width: 25%;}
   .aboutContainer {width: 75%; height: 150%; position:absolute; left:15%;}
   .arrow {font-size: 150%;}
-  .topnav {left: 33%; border-radius: 20px; width: 40%;}
+  .topnav {left: 30%; border-radius: 20px; width: 40%; height: 7%;}
   .topnav a {font-size: 80%;}
 }
 
@@ -425,7 +404,16 @@ body {
   .pikachu {bottom: 0%;}
   .aboutContainer {width: 70%; height: 150%; position: absolute; left: 13%;}
   .arrow {font-size:100%;}
-  .topnav {left: 0%; border-radius: 20px; width: 60%;}
+  .topnav {left: 22%; border-radius: 20px; width: 60%; height: 4.5%;}
   .topnav a {font-size: 50%;}
 }
 
+@media only screen and (max-width: 400px) {
+  .subheader{top:25%; left:30%; font-size:75%;}
+  .date {top: 35%; left: 38%; font-size: 100%;}
+  .timeAndLocation {top: 39%; left: 39%; font-size: 75%;}
+  .timerBtn {top: 50%; left: 28%;}
+  .register{top: 75%; left: 24%; font-size: 50%;}
+  .pikachu {bottom: 0%;}
+  .topnav {left: 24%; border-radius: 20px; width: 63%;}
+}
