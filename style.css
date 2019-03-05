@@ -331,6 +331,16 @@ th, td {
   left: 8%;
 }
 
+@media only screen and (max-width: 2000px) {
+  .subheader{top:48%; left:38%; font-size:180%;}
+  .date {top: 55%; left: 44%; font-size: 200%;}
+  .timeAndLocation {top: 60%; left: 44%; font-size: 180%;}
+  .timerBtn {top: 70%; left: 32%; font-size: 180%;}
+  .register{top: 90%; left: 35%; font-size: 150%;}
+  .pikachu {bottom: -11%;}
+  .topnav {left: 38%; border-radius: 20px; width: 21%; height: 3%;}
+}
+
 @media only screen and (max-width: 1250px) {
   .subheader{top:48%; left:35%; font-size:135%;}
   .date {top: 55%; left: 43%; font-size: 150%;}
