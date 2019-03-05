@@ -24,7 +24,7 @@ body {
 }
 
 #aboutHeader {
-  font-family: Permanent Marker, cursive; 
+  font-family: "Permanent Marker", cursive; 
   font-size: 200%;
 }
 
@@ -183,7 +183,6 @@ body {
 }
 
 
-
 .x2 {
 	-webkit-animation: animateCloud 20s linear infinite;
 	-moz-animation: animateCloud 20s linear infinite;
@@ -278,11 +277,15 @@ body {
 	top: -90px;
 }
 
+th, td {
+  padding: 0px;
+}
 .arrow {
 /*   top:80%; */
 /*   width: 5%; */
   color: #bb1133;
-  font-size: 200%;
+  font-size: 330%;
+  top:10%;
 }
 
  
@@ -309,13 +312,11 @@ body {
   width: 1000px;
 }
 #section2{
- margin-top: 30px;
+ margin-top: 80px;
 }
 
 .frontPage {
   height: 100vh;
- 
-
 }
 
 .aboutContainer{
