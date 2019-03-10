@@ -13,64 +13,25 @@
     <link href="https://fonts.googleapis.com/css?family=Ubuntu|Hammersmith+One|Hind+Siliguri|Permanent+Marker" rel="stylesheet"> 
     
     <!-- import the webpage's javascript file -->
-    <script src="/javascript.js" defer></script>
+    <script src="/script.js" defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>  
  
   <body bgcolor="#00368D">
-  <div style="width: 100%; margin: 0 auto; overflow: scroll;">
   
- <div class="frontPage" id="section1">
-   
-<div class="topnav">
+<div class="frontPage" id = "section1"> 
+  
+  <div class="topnav " style="text-align:center">
   <a class="active scroll" href="#section1" id="home">Home</a>
   <a class="scroll" href="#news">News</a>
   <a class="scroll"  href="#contact">Contact</a>
   <a class="scroll" href="#section2" id="about" >About</a>
 </div>
-
-
-   
-   
-<!-- <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
-</div>
-   -->
-  <div id="main">
-  
-<!--     <p class= "logobutton" style="font-size:10px;cursor:pointer" onclick="openNav()" >  <button class="hamburger" >&#9776;</button> -->
-      <!--<img src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.15752-9/53050702_314149725959064_8166858378946019328_n.png?_nc_cat=100&_nc_ht=scontent-lht6-1.xx&oh=9b80562cd5eee41d8d6259309af47222&oe=5CE056E1" width="100%">-->
-    <!-- background for clouds -->
-     <div id="background-wrap">
-        <div class="x1">
-            <div class="cloud"></div>
-        </div>
-
-        <div class="x2">
-            <div class="cloud"></div>
-        </div>
-
-        <div class="x3">
-            <div class="cloud"></div>
-        </div>
-
-        <div class="x4">
-            <div class="cloud"></div>
-        </div>
-
-        <div class="x5">
-            <div class="cloud"></div>
-        </div>
-    </div>
-    
      
-    <img class ="logo" src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.15752-9/53279114_546842332490094_63302427759083520_n.png?_nc_cat=101&_nc_ht=scontent-lht6-1.xx&oh=50867c8f4f138eaa7c87abed59446860&oe=5D13CFE3" width="30%"/>
-    
-    <div class="subheader">
+  <div><img class ="logo" src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.15752-9/53279114_546842332490094_63302427759083520_n.png?_nc_cat=101&_nc_ht=scontent-lht6-1.xx&oh=50867c8f4f138eaa7c87abed59446860&oe=5D13CFE3" width="30%"/> </div>
+ 
+  <div class="center">
+    <div class="subheader" style="text-align:center">
      <span style="color:#ff3333; font-family:Ubuntu, sans-serif;">
        <b>Enabling &nbsp</b>
       </span>
@@ -82,27 +43,27 @@
       </span>
     </div>
     
-    <center><button class="timerBtn" disabled>
-       <p id="demo"></p>
-	  </button></center>
-    
-  
-    <div class= "date">
+    <div class= "date" style="text-align:center">
       <b>SAT MARCH 30TH</b> <br><br>
     </div>
     
-    <div class= "timeAndLocation">
+    <div class= "timeAndLocation" style="text-align:center">
       <b>10AM-10PM <br> APPLETON TOWER</b>
     </div>
-    
-    <div class="register">
-      Want to join? Just <a class="noscroll" href="https://www.eventbrite.co.uk/e/extreme-pals-tickets-57884494080?fbclid=IwAR0St44GfwvwfPERUdzOueFo72V3Rl39czzjpyOhWUYdY45JvGwmu6LGpYM" style="color:#FF0000;"  target="_blank">register</a> and we will take care of the rest.
-     </div>
+    </div>
+  
+     <div class="register">
+      <p>Want to join? Just <a class="noscroll" href="https://www.eventbrite.co.uk/e/extreme-pals-tickets-57884494080?fbclid=IwAR0St44GfwvwfPERUdzOueFo72V3Rl39czzjpyOhWUYdY45JvGwmu6LGpYM" style="color:#FF0000;"  target="_blank">register</a> and we will take care of the rest.</p>
+    </div>
+  
+    <button class="timerBtn" disabled>
+       <p id="demo"></p>
+	  </button>
+
     
     <div class="belowRegister" style="width:8%;height:10%">
       <a class="scroll" href="#section2">  
-        <table style="width:100%;  
-" >
+        <table style="width:100%;">
             <tr>
                 <td>
                   <img class="icon" src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.15752-9/53050702_314149725959064_8166858378946019328_n.png?_nc_cat=100&_nc_ht=scontent-lht6-1.xx&oh=9b80562cd5eee41d8d6259309af47222&oe=5CE056E1" width="80%"/>
@@ -120,8 +81,10 @@
     <img class="pikachu" src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.15752-9/53172775_627688371064534_7755430074249117696_n.png?_nc_cat=110&_nc_ht=scontent-lht6-1.xx&oh=a552d03d8f335d08c7ad1a5f61678e47&oe=5D12081D" width="30%"/>
     
   </div> 
-</div>
-
+  
+    <!-- testing space-->
+    
+    
   
 <!-- about section-->
 <div class="frontPage" id="section2">
@@ -144,11 +107,29 @@
   <a class="scroll" href="#section1">back to the top you go</a>
   </div>
 </div>
-</div>
-</body>  
+</body> 
   
-   
+  <!-- clouds -->
+   <div id="background-wrap">
+        <div class="x1">
+            <div class="cloud"></div>
+        </div>
+
+        <div class="x2">
+            <div class="cloud"></div>
+        </div>
+
+        <div class="x3">
+            <div class="cloud"></div>
+        </div>
+
+        <div class="x4">
+            <div class="cloud"></div>
+        </div>
+
+        <div class="x5">
+            <div class="cloud"></div>
+        </div>
+    </div>
   
 </html>
-
-
