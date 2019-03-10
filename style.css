@@ -2,25 +2,17 @@
 
 .logo {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 35%;
   z-index:0;
   width: 30%;
 }
 
 body {
-  font-family: "Lato", sans-serif;
   transition: background-color .5s;
   height: 100%;
   width: 100%;
   margin: 0;
-}
-
-.logobutton{
-  position: absolute;
-  left:0%;
-  top:0%; 
-  width:5%;
 }
 
 #aboutHeader {
@@ -33,18 +25,15 @@ body {
 }
   
 .topnav {
-  display:inline-block;
-  overflow: hidden;
   background-color: #00368D;
-  position:fixed;
-  top:0%;
-  left:34%;
-  width:32%;
-  height:6%;
   z-index:10;
-  text-align:center;
-  border-radius: 20px;
+/*   text-align:center; */
+  position:fixed; /* added 6/3/19 eric */
+  left:38%;
+  height:5%;
+  border-radius: 25px; /* added 6/3/19 eric */
 }
+
 
 .topnav a {
 /*   float: left; */
@@ -58,17 +47,26 @@ body {
 
 .topnav a:hover {
   background-color: #f48b8b;
+  border-radius: 25px; /* added 6/3/19 eric */
+
 }
 
 .topnav a.active {
   background-color: #f0815c;
   color: white;
+  border-radius: 25px; /* added 6/3/19 eric */
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .subheader {
-  position:absolute;
-  top:50%;
-  left:35%;
   text-align: center;
   font-size: 150%;
 }
@@ -81,32 +79,29 @@ body {
 
 .date {
   color: #ffffff;
-  position: absolute;
   text-align:center;
   font-size : 180%;
-  top: 60%;
-  left:42%;
   font-family: 'Ubuntu', sans-serif;
 }
 
 .timeAndLocation{
   color: #ffffff;
-  position: absolute;
   text-align:center;
-  top: 65%;
-  left: 42%;
   font-family: 'Ubuntu', sans-serif;
   font-size: 150%;
 }
 
-.register{
+.register {
+  text-align:center; 
   color: #ffffff;
-  position:absolute;
   font-size:100%;
-  text-align: center;
-  bottom:5%;
-  left:35%;
   font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .belowRegister{
@@ -309,8 +304,10 @@ th, td {
 }
 
 #section1 {
-  width: 1000px;
+  width: 100%;
+  text-align: center;
 }
+
 #section2{
  margin-top: 80px;
 }
@@ -331,100 +328,51 @@ th, td {
   left: 8%;
 }
 
-@media only screen and (max-width: 2000px) {
-  .subheader{top:48%; left:38%; font-size:180%;}
-  .date {top: 55%; left: 44%; font-size: 200%;}
-  .timeAndLocation {top: 60%; left: 44%; font-size: 180%;}
-  .timerBtn {top: 70%; left: 32%; font-size: 180%;}
-  .register{top: 90%; left: 35%; font-size: 150%;}
+@media only screen and (max-width: 1500px) {
+  .subheader{font-size:150%;}
+  .date {font-size: 200%;}
+  .timeAndLocation {font-size: 150%;}
+  .center {top: 58%;}
+  .timerBtn {font-size: 150%; top: 74%;}
+  .register{font-size: 100%;}
   .pikachu {bottom: -11%;}
-  .topnav {left: 38%; border-radius: 20px; width: 21%; height: 3%;}
-}
-
-@media only screen and (max-width: 1250px) {
-  .subheader{top:48%; left:35%; font-size:135%;}
-  .date {top: 55%; left: 43%; font-size: 150%;}
-  .timeAndLocation {top: 60%; left: 43%; font-size: 135%;}
-  .timerBtn {top: 70%}
-  .register{top: 90%; left: 33%; font-size: 100%;}
-  .pikachu {bottom: -11%;}
-  .topnav {left: 32%; border-radius: 20px; width: 37%;}
-}
-
-@media only screen and (max-width: 1150px) {
-  .subheader{top:48%; left:35%; font-size:135%;}
-  .date {top: 55%; left: 43%; font-size: 150%;}
-  .timeAndLocation {top: 60%; left: 43%; font-size: 135%;}
-  .timerBtn {top: 70%}
-  .register{top: 90%; left: 33%; font-size: 100%;}
-  .pikachu {bottom: -11%;}
-  .topnav {left: 31%; border-radius: 20px; width: 40%;}
-}
-
-@media only screen and (max-width: 1000px) {
-  .subheader{top:48%; left:35%; font-size:135%;}
-  .date {top: 55%; left: 43%; font-size: 150%;}
-  .timeAndLocation {top: 60%; left: 43%; font-size: 135%;}
-  .timerBtn {top: 70%}
-  .register{top: 90%; left: 29%; font-size: 100%;}
-  .pikachu {bottom: -11%;}
-  .topnav {left: 29%; border-radius: 20px; width: 44%;}
+  .topnav a{font-size: 150%;}
 }
 
 
 @media only screen and (max-width: 900px) {
-  .subheader{top:40%; left:30%; font-size:135%;}
-  .date {top: 47%; left: 38%; font-size: 150%;}
-  .timeAndLocation {top: 52%; left: 38%; font-size: 135%;}
+  .subheader{font-size:125%;}
+  .date {font-size: 140%;}
+  .timeAndLocation {font-size: 125%;}
+  .center {top: 50%;}
   .timerBtn {top: 63%}
-  .register{top: 85%; left: 27%; font-size: 100%;}
+  .register{top: 90%; font-size: 100%;}
   .pikachu {bottom: -8%;}
-  .topnav {left: 30%; border-radius: 20px; width: 37%;}
-}
-
-@media only screen and (max-width: 900px) {
-  .subheader{top:40%; left:30%; font-size:135%;}
-  .date {top: 47%; left: 38%; font-size: 150%;}
-  .timeAndLocation {top: 52%; left: 38%; font-size: 135%;}
-  .timerBtn {top: 63%}
-  .register{top: 85%; left: 27%; font-size: 100%;}
-  .pikachu {bottom: -8%;}
-  .topnav {left: 27%; border-radius: 20px; width: 49%;}
-}
-
-@media only screen and (max-width: 800px) {
-  .subheader{top:45%; left:30%; font-size:125%;}
-  .date {top:52%; left: 39%; font-size: 150%;}
-  .timeAndLocation {top: 59%; left: 39%; font-size: 125%;}
-  .timerBtn {top: 75%; left: 24%; width: 55%; font-size:100%;}
-  .register{top: 90%; left: 25%; font-size: 100%;}
-  .pikachu {bottom: -10%; right: -5%; width: 25%;}
-  .aboutContainer {width: 75%; height: 150%; position:absolute; left:15%;}
-  .arrow {font-size: 150%;}
-  .topnav {left: 30%; border-radius: 20px; width: 40%; height: 7%;}
-  .topnav a {font-size: 80%;}
+  .topnav a{font-size: 100%;}
 }
 
 @media only screen and (max-width: 700px) {
-  .logo{top:10%;left:37%}
-  .subheader{top:28%; left:22%; font-size:100%;}
-  .date {top: 35%; left: 35%; font-size: 125%;}
-  .timeAndLocation {top: 40%; left: 35%; font-size: 100%;}
+  .subheader{font-size:100%;}
+  .date {font-size: 125%;}
+  .timeAndLocation {font-size: 100%;}
+  .center {top: 40%;}
   .timerBtn {top: 55%; left: 30%; width: 50%; font-size:100%;}
-  .register{top: 80%; left: 13%; font-size: 80%;}
+  .register{top: 80%; font-size: 80%;}
   .pikachu {bottom: 0%;}
   .aboutContainer {width: 70%; height: 150%; position: absolute; left: 13%;}
   .arrow {font-size:100%;}
-  .topnav {left: 22%; border-radius: 20px; width: 60%; height: 4.5%;}
-  .topnav a {font-size: 50%;}
+  .topnav{left:20%;} /* added 6/3/19 eric */
+  .topnav a{font-size: 80%;}
+  .icon{width: 110%;}
 }
 
 @media only screen and (max-width: 400px) {
-  .subheader{top:25%; left:30%; font-size:75%;}
-  .date {top: 35%; left: 38%; font-size: 100%;}
-  .timeAndLocation {top: 39%; left: 39%; font-size: 75%;}
+  .subheader{font-size:75%;}
+  .date {font-size: 100%;}
+  .timeAndLocation {font-size: 75%;}
+  .center {top: 35%;}
   .timerBtn {top: 50%; left: 28%;}
-  .register{top: 75%; left: 24%; font-size: 50%;}
+  .register{top: 75%; font-size: 50%;}
   .pikachu {bottom: 0%;}
-  .topnav {left: 24%; border-radius: 20px; width: 63%;}
+  .topnav a{font-size: 50%;}
 }
