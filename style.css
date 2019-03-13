@@ -30,7 +30,7 @@ body {
 /*   text-align:center; */
   position:fixed; /* added 6/3/19 eric */
   left:38%;
-  height:5%;
+  height:3%;
   border-radius: 25px; /* added 6/3/19 eric */
 }
 
@@ -312,23 +312,48 @@ th, td {
  margin-top: 80px;
 }
 
+#section3{
+ margin-top: 100px;
+}
+
 .frontPage {
   height: 100vh;
 }
 
 .aboutContainer{
-  width: 80%;
-  height: 80%;
-  padding: 10px;
+  width: 85%;
+  height: 95%;
+  padding: 0px;
+  padding-right:20px;
+  padding-left:20px;
   border: 5px solid #bb1133;
   margin: 0;
   background-color: white;
   text-align:center;
   position: absolute;
   left: 8%;
+  font-size: 120%;
+}
+  
+#contact {
+  text-align: center;
+  font-size: 150%;
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1600px) {
+  .subheader{font-size:180%;}
+  .date {font-size: 200%;}
+  .timeAndLocation {font-size: 150%;}
+  .center {top: 58%;}
+  .timerBtn {font-size: 150%; top: 74%;}
+  .register{font-size: 100%;}
+  .pikachu {bottom: -11%;}
+  .topnav {left:32%;}
+  .topnav a{font-size: 150%;}
+  .aboutContainer {height: 95%; font-size: 110%;}
+}
+
+@media only screen and (max-width: 1200px) {
   .subheader{font-size:150%;}
   .date {font-size: 200%;}
   .timeAndLocation {font-size: 150%;}
@@ -336,9 +361,10 @@ th, td {
   .timerBtn {font-size: 150%; top: 74%;}
   .register{font-size: 100%;}
   .pikachu {bottom: -11%;}
+  .topnav {left:32%;}
   .topnav a{font-size: 150%;}
+  .aboutContainer {height: 100%; font-size: 100%;}
 }
-
 
 @media only screen and (max-width: 900px) {
   .subheader{font-size:125%;}
@@ -348,7 +374,25 @@ th, td {
   .timerBtn {top: 63%}
   .register{top: 90%; font-size: 100%;}
   .pikachu {bottom: -8%;}
-  .topnav a{font-size: 100%;}
+  .topnav a{font-size: 150%;}  
+  .aboutContainer {height:110%; font-size: 100%; left:5%;}
+}
+
+@media only screen and (max-width: 800px) {
+  .subheader{font-size:100%;}
+  .date {font-size: 125%;}
+  .timeAndLocation {font-size: 100%;}
+  .center {top: 40%;}
+  .timerBtn {top: 55%; left: 25%; width: 50%; font-size:100%;}
+  .register{top: 80%; font-size: 80%;}
+  .pikachu {bottom: 0%;}
+  .aboutContainer {width: 70%; height: 150%; position: absolute; left: 13%;}
+  .arrow {font-size:100%;}
+  .topnav{left: 30%; height:3%;} /* added 6/3/19 eric */
+  .topnav a{font-size: 80%;}
+  .icon{width: 110%;}
+  .aboutContainer {height:115%; font-size: 90%;}
+  #contact {font-size:100%;}
 }
 
 @media only screen and (max-width: 700px) {
@@ -361,9 +405,11 @@ th, td {
   .pikachu {bottom: 0%;}
   .aboutContainer {width: 70%; height: 150%; position: absolute; left: 13%;}
   .arrow {font-size:100%;}
-  .topnav{left:20%;} /* added 6/3/19 eric */
+  .topnav{left:25%; height:3%;} /* added 6/3/19 eric */
   .topnav a{font-size: 80%;}
   .icon{width: 110%;}
+  .aboutContainer {height:125%; font-size: 90%;}
+  #contact {font-size:100%;}
 }
 
 @media only screen and (max-width: 400px) {
@@ -375,4 +421,20 @@ th, td {
   .register{top: 75%; font-size: 50%;}
   .pikachu {bottom: 0%;}
   .topnav a{font-size: 50%;}
+  .topnav {width:68%;}
+  .aboutContainer {height:180%;}
+}
+
+
+@media only screen and (max-width: 300px) {
+  .subheader{font-size:75%;}
+  .date {font-size: 100%;}
+  .timeAndLocation {font-size: 75%;}
+  .center {top: 35%;}
+  .timerBtn {top: 50%; left: 28%;}
+  .register{top: 75%; font-size: 50%;}
+  .pikachu {bottom: 0%;}
+  .topnav a{font-size: 50%;}
+  .topnav {width:83%; left:10%;}
+  .aboutContainer {left:8%; font-size: 80%; height: 190%;}
 }
