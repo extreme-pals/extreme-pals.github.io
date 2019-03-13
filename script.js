@@ -26,17 +26,6 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
-// function openNav() {
-//   document.getElementById("mySidenav").style.width = "250px";
-//   document.getElementById("main").style.marginLeft = "250px";
-//   document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-// }
-
-// function closeNav() {
-//   document.getElementById("mySidenav").style.width = "0";
-//   document.getElementById("main").style.marginLeft= "0";
-//   document.body.style.backgroundColor = "#00368D";
-// }
 
 $(document).ready(function(){
   // Add smooth scrolling to all links
@@ -75,6 +64,7 @@ $(document).ready(function(){
 
     })
 })
+
 // change active status of home and about button
 $(document).ready(function(){
     $(window).scroll(function (event) {
@@ -83,9 +73,14 @@ $(document).ready(function(){
          $("a").removeClass('active');
          $("#home").addClass('active');
       }
-      else {
+      else if(scroll < 1550) {
          $("a").removeClass('active');
          $("#about").addClass('active');
       }
+      else {
+        $("a").removeClass('active');
+         $("#Contact").addClass('active');
+      }
+        
     });
  })
