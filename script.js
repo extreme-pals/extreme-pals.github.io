@@ -73,7 +73,7 @@ $(document).ready(function(){
          $("a").removeClass('active');
          $("#home").addClass('active');
       }
-      else if(scroll < 1550) {
+      else if(scroll < 1200) {
          $("a").removeClass('active');
          $("#about").addClass('active');
       }
