@@ -48,13 +48,15 @@ section#home {
     color: white;
 }
 
-section#contact {
-    text-align: center;
-}
-
-section#about {
+.text-content {
+    padding: 0 20px;
+    margin: 0;
+    border: 5px solid #bb1133;
     font-family: 'Hind Siliguri', sans-serif;
     color: black;
+    background-color: white;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 /* Home section */
@@ -63,8 +65,11 @@ section#about {
     text-align: center;
 }
 
+.banner > img {
+    max-width: 500px;
+}
+
 .subheader {
-    text-align: center;
     font-size: 2rem;
     font-weight: bold;
 }
@@ -84,19 +89,18 @@ section#about {
 .timeAndLocation {
     color: white;
     text-align: center;
-    font-size: 1.5rem;
-}
-
-.date {
     font-size: 2rem;
 }
 
 .countdown {
     background-color: #f9b311;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
     border-radius: 20px;
     width: 40vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 #demo {
@@ -108,7 +112,7 @@ section#about {
     color: white;
     width: 100%;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .register-link {
@@ -117,7 +121,8 @@ section#about {
 
 .pikachu {
     position: absolute;
-    right: 0%;
+    right: 0;
+    bottom: 0;
     max-width: 30%;
 }
 
@@ -125,6 +130,10 @@ section#about {
     position: absolute;
     bottom: 5%;
     left: 0%;
+}
+
+.scroll-logo > img {
+    max-width: 100px;
 }
 
 .bounce {
@@ -164,17 +173,6 @@ section#about h3 {
 
 h2:hover, h3:hover {
     text-decoration: underline;
-}
-
-section#about {
-    padding: 0px;
-    padding-right: 20px;
-    padding-left: 20px;
-    border: 5px solid #bb1133;
-    margin: 0;
-    background-color: white;
-    text-align: center;
-    font-size: 1.5rem;
 }
 
 /*Media Queries*/
