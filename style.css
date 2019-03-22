@@ -59,7 +59,6 @@ section#home {
     font-family: 'Hind Siliguri', sans-serif;
     color: black;
     background-color: white;
-    font-size: 1.5rem;
 }
 
 h2 {
@@ -189,8 +188,12 @@ h3 {
         margin: 1rem;
     }
 
+    section#home {
+        margin-bottom: 80px;
+    }
+
     .banner > img {
-        max-width: 300px;
+        max-width: 350px;
     }
 
     .pikachu {
@@ -238,6 +241,10 @@ h3 {
     .scroll-logo > img {
         max-width: 100px;
     }
+
+    .text-content {
+        font-size: 1.5rem;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -256,5 +263,9 @@ h3 {
 
     .scroll-logo > img {
         max-width: 100px;
+    }
+
+    .text-content {
+        font-size: 1.5rem;
     }
 }
