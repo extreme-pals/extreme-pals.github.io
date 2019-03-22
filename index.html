@@ -3,125 +3,98 @@ layout: default
 title: XP | Extreme Pals
 ---
 <div class="flex-container">
-    <div class="frontPage1" id="section1">
-        <div class="topnav" style="text-align:center">
-            <a class="active scroll" href="#section1" id="home">Home</a>
-            <a class="scroll" href="#news">News</a>
-            <a class="scroll" href="#section3" id="Contact">Contact</a>
-            <a class="scroll" href="#section2" id="about">About</a>
-        </div>
+    <nav>
+        <a class="active scroll" href="#home" id="">Home</a>
+        <a class="scroll" href="#news">News</a>
+        <a class="scroll" href="#contact" id="">Contact</a>
+        <a class="scroll" href="#about" id="">About</a>
+    </nav>
 
-        <div><img class="logo" src="assets/extreme-pals-banner.png" width="30%" /> </div>
-
-        <div class="center">
-            <div class="subheader" style="text-align:center">
-                <span style="color:#ff3333; font-family:Ubuntu, sans-serif;">
-                    <b>Enabling &nbsp</b>
-                </span>
-                <span style="color:#FFA500; font-family:Ubuntu, sans-serif;">
-                    <b>Encouraging &nbsp</b>
-                </span>
-                <span style="color:#ffd24d; font-family:Ubuntu, sans-serif;">
-                    <b> Empowering</b>
-                </span>
-            </div>
-
-            <div class="date" style="text-align:center">
-                <b>SAT MARCH 30TH</b> <br><br>
-            </div>
-
-            <div class="timeAndLocation" style="text-align:center">
-                <b>10AM-10PM <br> APPLETON TOWER</b>
+    <!-- Home section -->
+    <section id="home">
+        <div class="banner">
+            <img src="assets/extreme-pals-banner.png" />
+    
+            <div class="subheader">
+                <span class="subheader-enabling">Enabling &nbsp</span>
+                <span class="subheader-encouraging">Encouraging &nbsp</span>
+                <span class="subheader-empowering">Empowering</span>
             </div>
         </div>
-
-        <div class="register">
-            <p>Want to join? Just <a class="noscroll"
-                    href="https://www.eventbrite.co.uk/e/extreme-pals-tickets-57884494080" style="color:#FF0000;"
-                    target="_blank">register</a> and we will take care of the rest.</p>
+    
+        <div class="timeAndLocation">
+            <p class="date">SAT MARCH 30TH</p>
+            <p>10AM-10PM</p>
+            <p>APPLETON TOWER</p>
         </div>
-
-        <button class="timerBtn" disabled>
+    
+        <div class="countdown">
             <p id="demo"></p>
-        </button>
-
-
-        <div class="belowRegister" style="width:8%;height:10%">
-            <a class="scroll" href="#section2">
-                <table style="width:100%;">
-                    <tr>
-                        <td>
-                            <img class="icon" src="assets/xp-logo.png" width="80%" />
-                        </td>
-                        <td>
-                            <div class="bounce">
-                                <a href="#section2" class="arrow scroll">&#8595;</a>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
+        </div>
+    
+        <a class="scroll-logo" href="#contact">
+            <img class="bounce" src="assets/xp-logo.png" />
+        </a>
+    
+        <div class="register">
+            <span>Want to join? Just </span>
+            <a class="register-link"
+                href="https://www.eventbrite.co.uk/e/extreme-pals-tickets-57884494080"
+                target="_blank">
+                register
             </a>
+            <span> and we will take care of the rest.</span>
         </div>
+    
+        <img class="pikachu" src="assets/pikachu.png" />
+    </section>
 
-        <img class="pikachu" src="assets/pikachu.png" width="30%" />
-
-    </div>
-
-    <!-- about section-->
-    <div class="frontPage2" id="section2">
-        <br><br>
-        <div class="aboutContainer">
-            <h2 id="aboutHeader">About Us</h2>
-            <h3 style="font-family: Ubuntu; sans-serif">
-                InfPals
-            </h3>
-            <p style="font-family: 'Hind Siliguri', sans-serif;">
-                InfPals is a Peer Learning and Support Program, aiming to bring together Year 1 students and helping
-                them
-                integrate into the Informatics world.
-            </p>
-            <h3 style="font-family: Ubuntu; sans-serif">
-                ExtremePals
-            </h3>
-            <p style="font-family: 'Hind Siliguri', sans-serif;">
-                Want to enter an official hackathon but feeling daunted by its unfamiliarity?
-                Well, Extreme PALS is for you!
+    <!-- Contact section -->
+    <section id="contact">
+            <div id="contact">
                 <br>
-                This hackathon will run over one whole day for 12 hours with breaks for a workshop and lunch.
-                Participants, in small teams of up to 3-4 people,
-                can stand a chance to win prizes by creating a game together based on a provided theme and framework.
-                <br>Extreme PALS has the support of Volker Seeker, the lecturer for object oriented programming, a
-                compulsory course for first year computer science students. By integrating the material with his course
-                syllabus, you can level-up your Java skills with some hands-on experience.
-                See this as an introduction to your hackathon journey.
-            </p>
-            <h3 style="font-family: Ubuntu; sans-serif">Objective</h3>
-            <p style="font-family: 'Hind Siliguri', sans-serif;">
-                The primary goal of Extreme PALS is to introduce students with limited programming experience to
-                programming events in a friendly way.
                 <br>
-                Extreme PALS wants to bolster participants’ confidence in their abilities, encouraging them to
-                engage with events outside of the academic curriculum and inspiring them to develop their own ideas.
-                As InfPALS leaders, we hope that this event will give the scheme lots of exposure and make a
-                positive impression, which may contribute to the growth of the InfPALS scheme in the coming academic
-                year.
-            </p>
-
-            <a class="scroll" href="#section1">Back to the Top you go</a>
-        </div>
-    </div>
-
-    <!-- contact section -->
-    <div id="section3">
-        <div id="contact">
-            <br>
-            <br>
-            <h2 style="color:#ff3333;">Reach out</h2>
-            <p style="font-family: 'Hind Siliguri', sans-serif; color:white">
-                If you have any questions, feel free to
-                pop us an email at xtreme.pals@gmail.com
-            </p>
+                <h2 style="color:#ff3333;">Reach out</h2>
+                <p style="font-family: 'Hind Siliguri', sans-serif; color:white">
+                    If you have any questions, feel free to
+                    pop us an email at xtreme.pals@gmail.com
+                </p>
+            </div>
+    
         </div>
 
-    </div>
+    <!-- About section-->
+    <section id="about">
+        <h2>About Us</h2>
+        <h3>InfPals</h3>
+        <p>
+            InfPals is a Peer Learning and Support Program, aiming to bring together Year 1 students and helping
+            them
+            integrate into the Informatics world.
+        </p>
+        <h3>ExtremePals</h3>
+        <p>
+            Want to enter an official hackathon but feeling daunted by its unfamiliarity?
+            Well, Extreme PALS is for you!
+            <br>
+            This hackathon will run over one whole day for 12 hours with breaks for a workshop and lunch.
+            Participants, in small teams of up to 3-4 people,
+            can stand a chance to win prizes by creating a game together based on a provided theme and framework.
+            <br>Extreme PALS has the support of Volker Seeker, the lecturer for object oriented programming, a
+            compulsory course for first year computer science students. By integrating the material with his course
+            syllabus, you can level-up your Java skills with some hands-on experience.
+            See this as an introduction to your hackathon journey.
+        </p>
+        <h3>Objective</h3>
+        <p>
+            The primary goal of Extreme PALS is to introduce students with limited programming experience to
+            programming events in a friendly way.
+            <br>
+            Extreme PALS wants to bolster participants’ confidence in their abilities, encouraging them to
+            engage with events outside of the academic curriculum and inspiring them to develop their own ideas.
+            As InfPALS leaders, we hope that this event will give the scheme lots of exposure and make a
+            positive impression, which may contribute to the growth of the InfPALS scheme in the coming academic
+            year.
+        </p>
+    </section>
 </div>
