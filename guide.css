@@ -13,7 +13,9 @@ body {
 #main {
     width: 90%;
     background-color: white;
-    margin: 0 auto;
+    margin: 2rem auto;
+    border-radius: 30px;
+    padding: 2rem;
 }
 
 img {
@@ -24,10 +26,32 @@ img[alt$="-small"] {
     max-width: 30%;
 }
 
+h1 {
+    font-family: 'Germania One', cursive;
+}
+
 h2 {
     font-family: 'Permanent Marker', cursive;
 }
 
-h3 {
-    font-family: 'Ubuntu', sans-serif;
+p {
+    font-family: 'Enriqueta', serif;
+}
+
+p > code {
+    background-color: black;
+    color: yellowgreen;
+    padding: 3px;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    font-family: 'Concert One', monospace;
+}
+
+pre {
+    background-color: black;
+    color: greenyellow;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-family: 'Concert One', monospace;
 }
