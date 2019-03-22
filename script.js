@@ -52,35 +52,28 @@ $(document).ready(function () {
     });
 });
 
-$(document).ready(function () {
-    $(window).scroll(function () {
-        if ($(window).scrollTop() > 30) {
-            $(".topnav").css({
-                "background-color": " #003b99"
-            });
-        } else {
-            $(".topnav").css({
-                "background-color": "#00368D"
-            });
-        }
-
-    })
-})
-
 // change active status of home and about button
 $(document).ready(function () {
     $(window).scroll(function (event) {
+        $("a").removeClass('active');
         var scroll = $(window).scrollTop();
-        if (scroll < 670) {
-            $("a").removeClass('active');
-            $("#home").addClass('active');
-        } else if (scroll < 1200) {
-            $("a").removeClass('active');
-            $("#about").addClass('active');
+
+        if (scroll < 30) {
+            $("nav").css({
+                "background-color": "#00368D"
+            });
         } else {
-            $("a").removeClass('active');
-            $("#Contact").addClass('active');
+            $("nav").css({
+                "background-color": " #003b99"
+            });
         }
 
+        if (scroll < 670) {
+            $("#tab-home").addClass('active');
+        } else if (scroll < 1200) {
+            $("#tab-contact").addClass('active');
+        } else {
+            $("#tab-about").addClass('active');
+        }
     });
 })

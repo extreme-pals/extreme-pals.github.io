@@ -56,13 +56,11 @@ section#home {
 }
 
 .text-content {
-    padding: 0 20px;
-    margin: 0;
+    padding: 0 2rem;
     border: 5px solid #bb1133;
     font-family: 'Hind Siliguri', sans-serif;
     color: black;
     background-color: white;
-    text-align: center;
     font-size: 1.5rem;
 }
 
@@ -136,7 +134,7 @@ h3 {
 
 .pikachu {
     position: absolute;
-    bottom: 0;
+    bottom: -10%;
     right: 0;
     max-width: 30%;
 }
