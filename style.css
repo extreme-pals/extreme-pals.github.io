@@ -45,6 +45,11 @@ nav > a.active {
 }
 
 /* High-level sections */
+section {
+    margin: 2rem;
+    position: relative;
+}
+
 section#home {
     font-family: 'Ubuntu', sans-serif;
     color: white;
@@ -130,16 +135,15 @@ h3 {
 }
 
 .pikachu {
-    position: relative;
-    left: 80%;
-    bottom: 10%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
     max-width: 30%;
 }
 
 .scroll-logo {
     position: absolute;
-    bottom: 5%;
-    left: 0%;
+    bottom: 0;
 }
 
 .scroll-logo > img {
