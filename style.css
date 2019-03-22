@@ -35,7 +35,6 @@ nav > a {
 nav > a:hover {
     background-color: #f48b8b;
     border-radius: 10px;
-
 }
 
 nav > a.active {
@@ -46,7 +45,6 @@ nav > a.active {
 
 /* High-level sections */
 section {
-    margin: 2rem;
     position: relative;
 }
 
@@ -78,10 +76,6 @@ h3 {
     text-align: center;
 }
 
-.banner > img {
-    max-width: 500px;
-}
-
 .subheader {
     font-size: 2rem;
     font-weight: bold;
@@ -106,19 +100,22 @@ h3 {
 }
 
 .countdown {
+    display: inline-block;
+    position: relative;
     background-color: #f9b311;
     font-size: 2rem;
     text-align: center;
     border-radius: 20px;
-    width: 40vw;
-    position: relative;
+    
     left: 50%;
     transform: translateX(-50%);
+    margin: 1rem 0;
 }
 
 #demo {
     color: white;
     font-family: 'Hammersmith One', cursive;
+    padding: 10px;
 }
 
 .register {
@@ -136,16 +133,12 @@ h3 {
     position: absolute;
     bottom: -10%;
     right: 0;
-    max-width: 30%;
 }
 
 .scroll-logo {
     position: absolute;
     bottom: 0;
-}
-
-.scroll-logo > img {
-    max-width: 100px;
+    left: 0;
 }
 
 .bounce {
@@ -165,5 +158,101 @@ h3 {
 
     60% {
         transform: translateY(15px);
+    }
+}
+
+
+/* Extra small devices (phones, 599px and down) */
+@media screen and (max-width: 599px) {
+    section {
+        margin: 0.5rem;
+    }
+
+    .banner > img {
+        max-width: 200px;
+    }
+
+    .pikachu {
+        max-width: 100px;
+    }
+
+    .scroll-logo > img {
+        max-width: 50px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) and (max-width: 767px) {
+    section {
+        margin: 1rem;
+    }
+
+    .banner > img {
+        max-width: 300px;
+    }
+
+    .pikachu {
+        max-width: 120px;
+    }
+
+    .scroll-logo > img {
+        max-width: 70px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    section {
+        margin: 1.5rem;
+    }
+
+    .banner > img {
+        max-width: 400px;
+    }
+
+    .pikachu {
+        max-width: 150px;
+    }
+
+    .scroll-logo > img {
+        max-width: 80px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    section {
+        margin: 2rem;
+    }
+
+    .banner > img {
+        max-width: 500px;
+    }
+
+    .pikachu {
+        max-width: 200px;
+    }
+
+    .scroll-logo > img {
+        max-width: 100px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    section {
+        margin: 2rem;
+    }
+
+    .banner > img {
+        max-width: 500px;
+    }
+
+    .pikachu {
+        max-width: 200px;
+    }
+
+    .scroll-logo > img {
+        max-width: 100px;
     }
 }

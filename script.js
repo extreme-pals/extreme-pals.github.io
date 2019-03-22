@@ -58,19 +58,9 @@ $(document).ready(function () {
         $("a").removeClass('active');
         var scroll = $(window).scrollTop();
 
-        if (scroll < 30) {
-            $("nav").css({
-                "background-color": "#00368D"
-            });
-        } else {
-            $("nav").css({
-                "background-color": " #003b99"
-            });
-        }
-
-        if (scroll < 670) {
+        if (scroll < 830) {
             $("#tab-home").addClass('active');
-        } else if (scroll < 1200) {
+        } else if (scroll < 1050) {
             $("#tab-contact").addClass('active');
         } else {
             $("#tab-about").addClass('active');
