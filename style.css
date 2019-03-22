@@ -1,4 +1,7 @@
 /* Whole page */
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     transition: background-color .5s;
@@ -22,21 +25,20 @@ nav {
     text-align: center;
 }
 
-.topnav a {
+nav > a {
     color: #f2f2f2;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 22px;
-    
 }
 
-.topnav a:hover {
+nav > a:hover {
     background-color: #f48b8b;
     border-radius: 10px;
 
 }
 
-.topnav a.active {
+nav > a.active {
     background-color: #f0815c;
     color: white;
     border-radius: 10px;
@@ -59,6 +61,14 @@ section#home {
     font-size: 1.5rem;
 }
 
+h2 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
 /* Home section */
 .banner {
     padding-top: 4rem;
@@ -72,6 +82,7 @@ section#home {
 .subheader {
     font-size: 2rem;
     font-weight: bold;
+    margin-top: 1rem;
 }
 
 .subheader-enabling {
@@ -87,7 +98,6 @@ section#home {
 }
 
 .timeAndLocation {
-    color: white;
     text-align: center;
     font-size: 2rem;
 }
@@ -120,9 +130,9 @@ section#home {
 }
 
 .pikachu {
-    position: absolute;
-    right: 0;
-    bottom: 0;
+    position: relative;
+    left: 80%;
+    bottom: 10%;
     max-width: 30%;
 }
 
@@ -153,387 +163,5 @@ section#home {
 
     60% {
         transform: translateY(15px);
-    }
-}
-
-/* Contact section */
-#contact {
-    text-align: center;
-    font-size: 150%;
-}
-
-/* About section */
-section#about h2 {
-    font-family: 'Permanent Marker', cursive;
-}
-
-section#about h3 {
-    font-family: 'Ubuntu', sans-serif;
-}
-
-h2:hover, h3:hover {
-    text-decoration: underline;
-}
-
-/*Media Queries*/
-@media only screen and (max-width: 1600px) {
-    .subheader {
-        font-size: 180%;
-    }
-
-    .date {
-        font-size: 200%;
-    }
-
-    .timeAndLocation {
-        font-size: 150%;
-    }
-
-    .center {
-        top: 58%;
-    }
-
-    .timerBtn {
-        font-size: 150%;
-        top: 74%;
-    }
-
-    .register {
-        font-size: 100%;
-    }
-
-    .pikachu {
-        bottom: -9%;
-    }
-
-    .topnav {
-        left: 37%;
-        height: 5%;
-    }
-
-    .topnav a {
-        font-size: 150%;
-    }
-
-    .aboutContainer {
-        font-size: 130%;
-    }
-
-    #contact {
-        font-size: 150%;
-    }
-}
-
-@media only screen and (max-width: 1100px) {
-    .subheader {
-        font-size: 125%;
-    }
-
-    .date {
-        font-size: 140%;
-    }
-
-    .timeAndLocation {
-        font-size: 125%;
-    }
-
-    .center {
-        top: 50%;
-    }
-
-    .timerBtn {
-        top: 63%
-    }
-
-    .register {
-        top: 90%;
-        font-size: 100%;
-    }
-
-    .topnav {
-        left: 30%;
-    }
-
-    .topnav a {
-        font-size: 150%;
-    }
-
-    .aboutContainer {
-        font-size: 110%;
-    }
-
-    #contact {
-        font-size: 120%;
-    }
-
-    .pikachu {
-        bottom: -5%;
-    }
-}
-
-@media only screen and (max-width: 900px) {
-    .subheader {
-        font-size: 125%;
-    }
-
-    .date {
-        font-size: 140%;
-    }
-
-    .timeAndLocation {
-        font-size: 125%;
-    }
-
-    .center {
-        top: 50%;
-    }
-
-    .timerBtn {
-        top: 63%
-    }
-
-    .register {
-        top: 90%;
-        font-size: 100%;
-    }
-
-    .topnav {
-        left: 30%;
-    }
-
-    .topnav a {
-        font-size: 150%;
-    }
-
-    .aboutContainer {
-        font-size: 100%;
-    }
-
-    #contact {
-        font-size: 120%;
-    }
-
-    .pikachu {
-        bottom: -5%;
-    }
-}
-
-@media only screen and (max-width: 700px) {
-    .subheader {
-        font-size: 100%;
-    }
-
-    .date {
-        font-size: 125%;
-    }
-
-    .timeAndLocation {
-        font-size: 100%;
-    }
-
-    .center {
-        top: 40%;
-    }
-
-    .timerBtn {
-        top: 55%;
-        left: 30%;
-        width: 50%;
-        font-size: 100%;
-    }
-
-    .register {
-        top: 80%;
-        font-size: 80%;
-    }
-
-    .pikachu {
-        bottom: 0%;
-    }
-
-    .arrow {
-        font-size: 100%;
-    }
-
-    .topnav {
-        left: 30%;
-        height: 3%;
-        width: 50%;
-    }
-
-    .topnav a {
-        font-size: 80%;
-    }
-
-    .icon {
-        width: 110%;
-    }
-
-    .aboutContainer {
-        font-size: 100%;
-    }
-
-    #contact {
-        font-size: 100%;
-    }
-}
-
-
-@media only screen and (max-height: 700px) {
-    .subheader {
-        font-size: 100%;
-    }
-
-    .date {
-        font-size: 125%;
-    }
-
-    .timeAndLocation {
-        font-size: 100%;
-    }
-
-    .center {
-        top: 40%;
-    }
-
-    .timerBtn {
-        top: 55%;
-        left: 30%;
-        width: 50%;
-        font-size: 100%;
-    }
-
-    .register {
-        top: 80%;
-        font-size: 80%;
-    }
-
-    .pikachu {
-        bottom: 0%;
-    }
-
-    .arrow {
-        font-size: 100%;
-    }
-
-    .topnav {
-        left: 15%;
-        height: 3%;
-        width: 80%;
-    }
-
-    .topnav a {
-        font-size: 80%;
-    }
-
-    .icon {
-        width: 110%;
-    }
-
-    .aboutContainer {
-        font-size: 70%;
-    }
-
-    #contact {
-        font-size: 100%;
-    }
-}
-
-
-@media only screen and (max-width: 400px) {
-    .subheader {
-        font-size: 75%;
-    }
-
-    .date {
-        font-size: 100%;
-    }
-
-    .timeAndLocation {
-        font-size: 75%;
-    }
-
-    .center {
-        top: 35%;
-    }
-
-    .timerBtn {
-        top: 50%;
-        left: 28%;
-    }
-
-    .register {
-        top: 75%;
-        font-size: 50%;
-    }
-
-    .pikachu {
-        bottom: 0%;
-    }
-
-    .topnav a {
-        font-size: 50%;
-    }
-
-    .topnav {
-        width: 68%;
-        left: 20%;
-    }
-
-    .aboutContainer {
-        font-size: 60%;
-    }
-
-    #contact {
-        font-size: 80%;
-    }
-}
-
-@media only screen and (max-height: 500px) {
-    .subheader {
-        font-size: 75%;
-    }
-
-    .date {
-        font-size: 100%;
-    }
-
-    .timeAndLocation {
-        font-size: 75%;
-    }
-
-    .center {
-        top: 35%;
-    }
-
-    .timerBtn {
-        top: 50%;
-        left: 28%;
-    }
-
-    .register {
-        top: 75%;
-        font-size: 50%;
-    }
-
-    .pikachu {
-        bottom: 0%;
-    }
-
-    .topnav a {
-        font-size: 50%;
-    }
-
-    .topnav {
-        width: 68%;
-        left: 20%;
-    }
-
-    .aboutContainer {
-        font-size: 50%;
-    }
-
-    #contact {
-        font-size: 70%;
     }
 }
