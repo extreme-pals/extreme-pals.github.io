@@ -1,3 +1,33 @@
-img[alt="^-small"] {
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    transition: background-color .5s;
+    background-color: #00368D;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#main {
+    width: 90%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 80%;
+}
+
+img[alt$="-small"] {
     max-width: 30%;
+}
+
+h2 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+h3 {
+    font-family: 'Ubuntu', sans-serif;
 }
