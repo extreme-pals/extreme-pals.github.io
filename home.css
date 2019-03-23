@@ -168,6 +168,9 @@ h3 {
     text-align: center;
 }
 
+.door {
+    max-width: 90%;
+}
 
 /* Extra small devices (phones, 599px and down) */
 @media screen and (max-width: 599px) {

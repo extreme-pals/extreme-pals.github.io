@@ -55,12 +55,14 @@ $(document).ready(function () {
 // change active status navigation bar buttons
 function onScroll(event) {
     var scroll = $(window).scrollTop();
+    var breakpoint = scroll + $(nav).height();
 
     $("nav a").each(function() {
         var current = $(this);
         var href = $(current.attr("href"));
 
-        if (href.position().top <= scroll && href.position().top + href.height() > scroll) {
+        if (href.position().top <= breakpoint
+        && href.position().top + href.height() > breakpoint) {
             current.addClass("active");
         } else {
             current.removeClass("active");
