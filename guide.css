@@ -3,16 +3,15 @@ html {
 }
 
 body {
-    transition: background-color .5s;
-    background-color: #00368D;
+    background: linear-gradient(#00368D, #bb1a4a);
     height: 100%;
     width: 100%;
     margin: 0;
 }
 
 #main {
+    background: linear-gradient(to right, white, #F1E7CD);
     width: 90%;
-    background-color: white;
     margin: 2rem auto;
     border-radius: 30px;
     padding: 2rem;
@@ -28,6 +27,8 @@ img[alt$="-small"] {
 
 h1 {
     font-family: 'Germania One', cursive;
+    text-align: center;
+    font-size: xx-large;
 }
 
 h2 {
@@ -38,13 +39,16 @@ p {
     font-family: 'Enriqueta', serif;
 }
 
+p > a {
+    color: chocolate;
+}
+
 p > code {
     background-color: black;
     color: yellowgreen;
     padding: 3px;
     border-radius: 3px;
     font-size: 0.8rem;
-    font-family: 'Concert One', monospace;
 }
 
 pre {
