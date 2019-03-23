@@ -73,8 +73,10 @@ ol {
     -webkit-background-clip: text;
     background-clip: text;
     font-size: 1.2rem;
+    
 }
 
 ol > li > a {
     text-decoration: none;
+    color: chocolate;
 }
