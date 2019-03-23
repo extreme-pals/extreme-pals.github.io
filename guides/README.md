@@ -8,7 +8,7 @@ title: XP Framework guidelines
 
 [Extreme Pikachu][xpikachu-image]
 
-Hi! My name is Extreme Pikachu, pleased to meet ya \(^.^)/
+Hi! My name is Extreme Pikachu, pleased to meet ya \\(^.^)/
 
 I am here to help you get started with the game framework.
 Follow these helpful links to find guidelines:

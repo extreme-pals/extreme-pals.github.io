@@ -1,5 +1,12 @@
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
 html {
     scroll-behavior: smooth;
+    min-height: 100%;
 }
 
 body {
@@ -26,7 +33,7 @@ img[alt$="-small"] {
 }
 
 h1 {
-    font-family: 'Germania One', cursive;
+    font-family: 'Shojumaru', cursive;
     text-align: center;
     font-size: xx-large;
 }
@@ -58,4 +65,16 @@ pre {
     border-radius: 5px;
     font-size: 0.8rem;
     font-family: 'Concert One', monospace;
+}
+
+ol {
+    background: linear-gradient(red, darkorange, green, blue, purple);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 1.2rem;
+}
+
+ol > li > a {
+    text-decoration: none;
 }
