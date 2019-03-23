@@ -30,6 +30,7 @@ nav > a {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 22px;
+    font-family: 'Permanent Marker', cursive;
 }
 
 nav > a:hover {
@@ -160,6 +161,11 @@ h3 {
     60% {
         transform: translateY(15px);
     }
+}
+
+/* News section */
+#news {
+    text-align: center;
 }
 
 
