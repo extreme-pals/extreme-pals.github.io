@@ -15,21 +15,22 @@ var x = setInterval(function () {
     var minutes = Math.floor((interval % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((interval % (1000 * 60)) / 1000);
 
-    // Output the result in an element with id="demo"
-    document.getElementById("demo").innerHTML = days + " days : " + hours + " hours : " +
+    // Output the result in an element with id="timer"
+    document.getElementById("timer").innerHTML = days + " days : " + hours + " hours : " +
         minutes + " minutes : " + seconds + " seconds";
 
     // If the count down is over, write some text 
     if (interval < 0) {
         clearInterval(x);
-        document.getElementById("demo").innerHTML = "EXPIRED";
+        document.getElementById("timer").innerHTML = "EXPIRED";
     }
 }, 1000);
 
 $(document).ready(function () {
-    // Add smooth scrolling to all links
-    $(".scroll").on('click', function (event) {
+    $(document).on("scroll", onScroll);
 
+    // Add smooth scrolling to all links
+    $("nav a").on('click', function (event) {
         // Make sure this.hash has a value before overriding default behavior
         if (this.hash !== "") {
             // Prevent default anchor click behavior
@@ -47,23 +48,22 @@ $(document).ready(function () {
                 // Add hash (#) to URL when done scrolling (default click behavior)
                 window.location.hash = hash;
             });
-
-        } // End if
+        }
     });
 });
 
-// change active status of home and about button
-$(document).ready(function () {
-    $(window).scroll(function (event) {
-        $("a").removeClass('active');
-        var scroll = $(window).scrollTop();
+// change active status navigation bar buttons
+function onScroll(event) {
+    var scroll = $(window).scrollTop();
 
-        if (scroll < 830) {
-            $("#tab-home").addClass('active');
-        } else if (scroll < 1050) {
-            $("#tab-contact").addClass('active');
+    $("nav a").each(function() {
+        var current = $(this);
+        var href = $(current.attr("href"));
+
+        if (href.position().top <= scroll && href.position().top + href.height() > scroll) {
+            current.addClass("active");
         } else {
-            $("#tab-about").addClass('active');
+            current.removeClass("active");
         }
-    });
-})
+    })
+}
