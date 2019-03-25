@@ -141,7 +141,6 @@ h3 {
 }
 
 .scroll-logo {
-    position: absolute;
     bottom: 0;
     left: 0;
 }
@@ -189,6 +188,10 @@ h3 {
         max-width: 80px;
     }
 
+    .scroll-logo {
+        position: relative;
+    }
+
     .scroll-logo > img {
         max-width: 50px;
     }
@@ -212,6 +215,14 @@ h3 {
         max-width: 100px;
     }
 
+    .register-parent {
+        display: flex;
+    }
+
+    .scroll-logo {
+        position: relative;
+    }
+
     .scroll-logo > img {
         max-width: 70px;
     }
@@ -231,6 +242,10 @@ h3 {
         max-width: 150px;
     }
 
+    .scroll-logo {
+        position: absolute;
+    }
+
     .scroll-logo > img {
         max-width: 80px;
     }
@@ -248,6 +263,10 @@ h3 {
 
     .pikachu {
         max-width: 200px;
+    }
+
+    .scroll-logo {
+        position: absolute;
     }
 
     .scroll-logo > img {
@@ -271,6 +290,10 @@ h3 {
 
     .pikachu {
         max-width: 300px;
+    }
+
+    .scroll-logo {
+        position: absolute;
     }
 
     .scroll-logo > img {
