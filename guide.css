@@ -68,12 +68,12 @@ pre {
 }
 
 ol {
+    color: chocolate;
     background: linear-gradient(red, darkorange, green, blue, purple);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
     background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 1.2rem;
-    
 }
 
 ol > li > a {

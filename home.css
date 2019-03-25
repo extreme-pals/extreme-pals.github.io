@@ -121,9 +121,12 @@ h3 {
     padding: 10px;
 }
 
+.register-parent {
+    text-align: center;
+}
+
 .register {
     width: 100%;
-    text-align: center;
     font-size: 1.5rem;
 }
 

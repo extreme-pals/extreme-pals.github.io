@@ -55,7 +55,7 @@ $(document).ready(function () {
 // change active status navigation bar buttons
 function onScroll(event) {
     var scroll = $(window).scrollTop();
-    var breakpoint = scroll + $(nav).height();
+    var breakpoint = scroll + $("nav").height();
 
     $("nav a").each(function() {
         var current = $(this);
