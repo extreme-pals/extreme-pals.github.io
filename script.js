@@ -62,7 +62,7 @@ function onScroll(event) {
         var href = $(current.attr("href"));
 
         if (href.position().top <= breakpoint
-        && href.position().top + href.height() > breakpoint) {
+        && href.position().top + href.outerHeight(true) > breakpoint) {
             current.addClass("active");
         } else {
             current.removeClass("active");
