@@ -69,11 +69,11 @@ pre {
 
 ol {
     background: linear-gradient(red, darkorange, green, blue, purple);
+    color: chocolate;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
     font-size: 1.2rem;
-    
 }
 
 ol > li > a {
