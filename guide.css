@@ -30,12 +30,12 @@ body {
 }
 
 @keyframes moveAbout {
-    0% {
+    0%, 100% {
         margin-left: 0;
         transform: none;
     }
 
-    100% {
+    50% {
         margin-left: 100%;
         transform: translateX(-100%);
     }
@@ -84,49 +84,43 @@ pre {
     font-family: 'Concert One', monospace;
 }
 
-.guides-container {
-    display: flex;
-}
-
-ol {
-    font-size: 1.2rem;
+.guides {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-ol > li > a {
-    text-decoration: none;
-}
-
-ol.blue-guides {
+.blue-guides {
     background-image: linear-gradient(royalblue, blue, navy);
-}
-
-ol.blue-guides > li > a {
     color: blue;
 }
 
-ol.green-guides {
+.green-guides {
     background-image: linear-gradient(lightgreen, green, darkgreen);
-}
-
-ol.green-guides > li > a {
     color: green;
 }
 
-ol.yellow-guides {
+.yellow-guides {
     background-image: linear-gradient(yellow, gold, orange);
-}
-
-ol.yellow-guides > li > a {
     color: gold;
 }
 
-ol.red-guides {
+.red-guides {
     background-image: linear-gradient(orangered, red, firebrick);
+    color: red;
 }
 
-ol.red-guides > li > a {
-    color: red;
+.guides-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ol {
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+ol > li > a {
+    text-decoration: none;
 }
