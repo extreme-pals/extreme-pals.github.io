@@ -24,6 +24,23 @@ body {
     padding: 2rem;
 }
 
+.xpikachu {
+    position: relative;
+    animation: moveAbout 8s linear infinite;
+}
+
+@keyframes moveAbout {
+    0% {
+        margin-left: 0;
+        transform: none;
+    }
+
+    100% {
+        margin-left: 100%;
+        transform: translateX(-100%);
+    }
+}
+
 img {
     max-width: 80%;
 }
@@ -67,6 +84,10 @@ pre {
     font-family: 'Concert One', monospace;
 }
 
+.guides-container {
+    display: flex;
+}
+
 ol {
     font-size: 1.2rem;
     background-clip: text;
@@ -79,7 +100,7 @@ ol > li > a {
 }
 
 ol.blue-guides {
-    background-image: linear-gradient(cyan, blue, navy);
+    background-image: linear-gradient(royalblue, blue, navy);
 }
 
 ol.blue-guides > li > a {
