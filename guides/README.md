@@ -15,6 +15,6 @@ Follow these helpful links to find guidelines:
 
 1. [Getting set up](/guides/1. Getting Set Up.html)
 2. [Implementing your first features](/guides/2. First Steps.html)
-3. [To-do](to-do)
+3. [Dirtying your hands with development](/guides/3. Developing Jumping.html)
 
 [xpikachu-image]: /assets/pikachu-cloud.svg
