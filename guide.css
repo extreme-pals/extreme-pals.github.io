@@ -10,14 +10,14 @@ html {
 }
 
 body {
-    background: linear-gradient(#00368D, #bb1a4a);
+    background-image: linear-gradient(#00368D, #bb1a4a);
     height: 100%;
     width: 100%;
     margin: 0;
 }
 
 #main {
-    background: linear-gradient(to right, white, #F1E7CD);
+    background-image: linear-gradient(to right, white, #F1E7CD);
     width: 90%;
     margin: 2rem auto;
     border-radius: 30px;
@@ -68,15 +68,44 @@ pre {
 }
 
 ol {
-    color: chocolate;
-    background: linear-gradient(red, darkorange, green, blue, purple);
+    font-size: 1.2rem;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 1.2rem;
 }
 
 ol > li > a {
     text-decoration: none;
-    color: chocolate;
+}
+
+ol.blue-guides {
+    background-image: linear-gradient(cyan, blue, navy);
+}
+
+ol.blue-guides > li > a {
+    color: blue;
+}
+
+ol.green-guides {
+    background-image: linear-gradient(lightgreen, green, darkgreen);
+}
+
+ol.green-guides > li > a {
+    color: green;
+}
+
+ol.yellow-guides {
+    background-image: linear-gradient(yellow, gold, orange);
+}
+
+ol.yellow-guides > li > a {
+    color: gold;
+}
+
+ol.red-guides {
+    background-image: linear-gradient(orangered, red, firebrick);
+}
+
+ol.red-guides > li > a {
+    color: red;
 }
