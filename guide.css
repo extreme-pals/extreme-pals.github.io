@@ -24,22 +24,6 @@ body {
     padding: 2rem;
 }
 
-.xpikachu {
-    position: relative;
-    width: 250px;
-    animation: moveAbout 8s ease infinite;
-}
-
-@keyframes moveAbout {
-    0%, 100% {
-        margin-left: 0;
-    }
-
-    50% {
-        margin-left: calc(100% - 250px);
-    }
-}
-
 img {
     max-width: 80%;
 }
@@ -81,44 +65,4 @@ pre {
     border-radius: 5px;
     font-size: 0.8rem;
     font-family: 'Concert One', monospace;
-}
-
-.guides {
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.blue-guides {
-    background-image: linear-gradient(dodgerblue, blue, navy);
-    color: blue;
-}
-
-.green-guides {
-    background-image: linear-gradient(lightgreen, green, darkgreen);
-    color: green;
-}
-
-.yellow-guides {
-    background-image: linear-gradient(goldenrod, gold, orange);
-    color: gold;
-}
-
-.red-guides {
-    background-image: linear-gradient(orangered, red, firebrick);
-    color: red;
-}
-
-.guides-container {
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-}
-
-ul {
-    font-size: 1.2rem;
-}
-
-ul > li > a {
-    text-decoration: none;
 }
