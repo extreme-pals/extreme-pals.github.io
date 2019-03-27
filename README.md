@@ -6,4 +6,4 @@ Interesting that someone has showed up here.
 
 If you are by any chance one of the attendees for the Extreme PALS event, you might be looking for the [Extreme PALS game framework repository](https://github.com/extreme-pals/extreme-pals-game) instead.
 
-Otherwise, enjoy your visit!
+Enjoy your visit!

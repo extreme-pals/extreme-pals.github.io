@@ -1,7 +1,7 @@
 .xpikachu {
     position: relative;
     width: 250px;
-    animation: moveAbout 8s ease infinite;
+    animation: moveAbout 8s ease-out infinite;
 }
 
 @keyframes moveAbout {
@@ -54,4 +54,9 @@ ul {
 
 ul > li > a {
     text-decoration: none;
+}
+
+ul > li > a:hover {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
 }
