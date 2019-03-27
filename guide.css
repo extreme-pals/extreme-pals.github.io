@@ -26,18 +26,17 @@ body {
 
 .xpikachu {
     position: relative;
-    animation: moveAbout 8s linear infinite;
+    width: 250px;
+    animation: moveAbout 8s ease infinite;
 }
 
 @keyframes moveAbout {
     0%, 100% {
         margin-left: 0;
-        transform: none;
     }
 
     50% {
-        margin-left: 100%;
-        transform: translateX(-100%);
+        margin-left: calc(100% - 250px);
     }
 }
 
@@ -91,7 +90,7 @@ pre {
 }
 
 .blue-guides {
-    background-image: linear-gradient(royalblue, blue, navy);
+    background-image: linear-gradient(dodgerblue, blue, navy);
     color: blue;
 }
 
@@ -101,7 +100,7 @@ pre {
 }
 
 .yellow-guides {
-    background-image: linear-gradient(yellow, gold, orange);
+    background-image: linear-gradient(goldenrod, gold, orange);
     color: gold;
 }
 
@@ -113,14 +112,13 @@ pre {
 .guides-container {
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
 }
 
-ol {
+ul {
     font-size: 1.2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
 }
 
-ol > li > a {
+ul > li > a {
     text-decoration: none;
 }
