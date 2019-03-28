@@ -46,7 +46,7 @@ p {
     font-family: 'Enriqueta', serif;
 }
 
-p > a {
+a {
     color: chocolate;
 }
 
