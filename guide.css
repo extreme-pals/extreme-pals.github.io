@@ -65,4 +65,5 @@ pre {
     border-radius: 5px;
     font-size: 0.8rem;
     font-family: 'Concert One', monospace;
+    white-space: pre-wrap;
 }
