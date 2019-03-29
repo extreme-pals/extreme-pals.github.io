@@ -70,10 +70,6 @@ h3 {
     font-family: 'Ubuntu', sans-serif;
 }
 
-p {
-    text-align: justify;
-}
-
 /* Home section */
 .banner {
     padding-top: 4rem;
@@ -172,6 +168,14 @@ p {
 /* News section */
 #news {
     text-align: center;
+}
+
+.timeline-container {
+    display: inline-block;
+}
+
+.timeline {
+    text-align: justify;
 }
 
 .door {
