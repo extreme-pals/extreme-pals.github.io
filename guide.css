@@ -56,7 +56,7 @@ p > code {
     color: yellowgreen;
     padding: 3px;
     border-radius: 3px;
-    font-size: 0.8rem;
+    font-size: 12px;
 }
 
 pre {
@@ -64,7 +64,7 @@ pre {
     color: greenyellow;
     padding: 10px;
     border-radius: 5px;
-    font-size: 0.8rem;
+    font-size: 13px;
     font-family: 'Source Code Pro', monospace;
     white-space: pre-wrap;
 }
