@@ -70,6 +70,10 @@ h3 {
     font-family: 'Ubuntu', sans-serif;
 }
 
+p {
+    text-align: justify;
+}
+
 /* Home section */
 .banner {
     padding-top: 4rem;
