@@ -121,16 +121,16 @@ h3 {
     padding: 10px;
 }
 
-.register-parent {
+.photos-parent {
     text-align: center;
 }
 
-.register {
+.photos {
     width: 100%;
     font-size: 1.5rem;
 }
 
-.register-link {
+.photos-link {
     color: red;
 }
 
@@ -223,7 +223,7 @@ h3 {
         max-width: 100px;
     }
 
-    .register-parent {
+    .photos-parent {
         display: flex;
     }
 

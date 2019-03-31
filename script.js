@@ -22,7 +22,7 @@ var x = setInterval(function () {
     // If the count down is over, write some text 
     if (interval < 0) {
         clearInterval(x);
-        document.getElementById("timer").innerHTML = "HAPPENING NOW";
+        document.getElementById("timer").innerHTML = "ENDED. WANT TO SEE IT AGAIN? SEND US AN EMAIL!";
     }
 }, 1000);
 
